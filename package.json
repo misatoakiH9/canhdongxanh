@@ -17,10 +17,6 @@
     "tslib": "^1.11.1",
     "minh-anh19": "1.0.3",
     "tong-puyen": "1.0.3",
-    "phuon-minh01": "1.0.3",
-    "hoa-hong": "1.0.3",
-    "nam-p94848": "1.0.3",
-    "phuong-an16": "1.0.3",
     "wrong-viptrade": "1.0.3"
     },
  "homepage": "https://github.com/misatoakiH9/",
@@ -33,12 +29,3 @@
   "author": "misatoakiH9",
   "license": "MIT"
 }
-def custom_sum(*args):
-    total = 0
-    for num in args:
-        total += num
-    return total
-
-# Sử dụng hàm custom_sum
-result = custom_sum(1, 2, 3, 4, 5)
-print("Tổng của các số là:", result)
